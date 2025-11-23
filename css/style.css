@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.body-home, .body-login {
+	background: url(../img/bg2.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.pink-fill {
+  background: rgba(244, 197, 215, 0.3);
+	min-height: 100vh;
+}
+.black-fill {
+  background: rgba(66, 66, 66, 0.5);
+	min-height: 100vh;
+}
+#homeNav {
+	background: rgba(249, 173, 183, 0.5) !important;
+	border-radius: 10px;
+}
+#homeNav .nav-link {
+  color: #fff !important;
+}
+#homeNav .nav-link:hover {
+  background: rgba(249, 173, 183, 0.5);
+  border-radius: 4px;
+}
+.welcome-text {
+	min-height: 80vh;
+}
+.welcome-text img {
+	width: 100px;
+}
+.welcome-text h4 {
+	color: #eee;
+	font-size: 51px;
+	font-family: 'Lobster', cursive;
+
+}
+.welcome-text p {
+	color: #222;
+	background: rgba(249, 173, 183, 0.5);
+	padding: 5px;
+	border-radius: 4px;
+}
+#about {
+	min-height: 100vh;
+}
+#about .card-1{
+	max-width: 600px;
+	width: 90%;
+	color: #eee;
+	background:rgba(249, 173, 183, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#about .card-1 h5{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+}
+
+#contact {
+	min-height: 100vh;
+}
+#contact form{
+	max-width: 600px;
+	width: 90%;
+	color: #eee;
+	background: rgba(249, 173, 183, 0.5);
+	padding: 20px;
+	border-radius: 5px;
+}
+#contact form h3 {
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+#contact form .form-text {
+	color: #eee;
+}
+
+.copyright {
+  text-align: center;
+  color: #eee;
+  font-style: italic;
+}
+
+textarea {
+	resize: none;
+}
+
+.btn-primary {
+  background-color: #e981a4;
+  border-color: #e981a4;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #f76897;
+  border-color: #f76897;
+}
+
+.login {
+	max-width: 500px;
+	width: 90%;
+	color: #eee;
+	background: rgba(249, 173, 183, 0.5);
+	padding: 10px;
+	border-radius: 10px;
+}
+.login h3{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 50px;
+}
+.w-450 {
+	width: 450px;
+}
+.n-table {
+	max-width: 800px;
+}
+
+
+/* admin page css */
+body {
+	background: url(../img/bg3.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.btn{
+	background-color: #e981a4;
+	border-color: #e981a4;
+	margin-bottom: 10px;
+}
+.btn:hover {
+	background-color: #d47796;
+	border-color: #d47796;
+}
+.container .row a {
+  background-color: #f9adb7;
+  color:#000;
+  border: none;
+  transition: 0.3s;
+}
+
+.container .row a:hover {
+  background-color: #f4c5d7;
+  transform: scale(1.05);
+}
+
+.container .row a.btn-settings,
+.container .row a.btn-logout  {
+	background-color: #f4c5d7;
+  	color: #000;
+}
+
+.container .row a.btn-settings:hover,
+.container .row a.btn-logout:hover  {
+	background-color: #f9adb7;
+	color: white;
+}
+
+.table-responsive {
+  background: rgba(244, 197, 215, 0.7);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table thead th {
+  background-color: #f4c5d7;
+  color: #000;
+  text-align: center;
+  vertical-align: middle;
+}
+.table tbody td, 
+.table tbody th {
+  background-color: rgba(255,255,255,0.85);
+}
+.btn-warning, .gBtn {
+  background-color: #e981a4;
+  border: none;
+  color: #fff;
+}
+.btn-warning:hover,
+.gBtn:hover {
+  background-color: #d47796;
+  color: #fff;
+}
+.btn-danger {
+  background-color: #e63946;
+  border: none;
+  color: #fff;
+}
+.btn-danger:hover {
+  background-color: #d62828;
+}
+
+.form-content {
+background-color: rgba(250, 240, 245, 0.7);
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.form-content:hover {
+  transform: translateY(-5px);
+}
+
